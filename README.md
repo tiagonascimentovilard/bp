@@ -15,19 +15,20 @@ tabuleiro tipo Banco Imobiliário.
 1. Baixe e instale o NodeJS:
 https://nodejs.org/ru/blog/release/v16.13.0/
 
-2. Extraia os arquivos compactado no desafio_bp_api.zip
+2. Clonar o repositório:
+```sh
+$ git clone https://github.com/tiagonascimentovilard/bp.git
+```
 
-3. Via terminal de comando, na pasta onde descompactou os arquivos,
-instale as dependências via npm:
+3. Via terminal de comando, na pasta do projeto, instale as dependências via npm:
 ```sh
 $ npm install
 ```
 
-4. No mesmo terminal, para iniciar o servidor, digite:
+4. Via terminal, na pasta do projeto, inicie o servidor:
 ```sh
 $ npm start
 ```
-
 
 ### Endpoint
 http://localhost:8080/jogo/simular
